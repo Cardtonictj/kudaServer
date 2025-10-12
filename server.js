@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 5000;
 
 // emails credentials
 const userEmail = "kudaapp.help@gmail.com";
-const pass = "qgwxtbprvuqcfgbb";
+//const pass = "qgwxtbprvuqcfgbb";
 // de you young 15 oct
 
 // Rate limiter middleware (e.g., 5 requests per minute per IP)
@@ -89,6 +89,7 @@ app.post("/otp", (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server is running on port http://localhost:${PORT}`);
 });
+
 
 
 
